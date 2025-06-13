@@ -12,7 +12,6 @@ main h1:hover{
 }
 main h1 {
   text-transform: uppercase;
-  font-family: cursive;
   font-size: x-large;
   background-color: rgba(158, 196, 237, 0.644);
   width: fit-content;
