@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
- 
 }
 
 body {
@@ -18,15 +17,12 @@ main h1 {
   margin: 20px auto;
  transition: all 0.2s  ease;
 }
-.barsection {
-  display: flex;
-}
 nav a{
    font-size: 17px;
    font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  margin: 10px ;
+  margin: 1px ;
   text-decoration: none;
   padding: 6px;
   background-color:  rgba(67, 131, 154, 0.741);
@@ -47,12 +43,14 @@ transform: scale(1.05);
 }
 .header{
   display: flex;
+  text-align: center;
   font-size: 30px;
-  width: 95.5vw;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgba(17, 65, 83, 0.741);
-  color: rgb(255, 255, 255);
+  width: 100%;
+  box-sizing: border-box;
   padding: 25px;
+  background-color: rgba(17, 65, 83, 0.741);
+  color: rgb(249, 249, 249);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .details:hover{
    background-color: rgba(255, 255, 255, 0.618);
@@ -72,7 +70,7 @@ transform: scale(1.02);
 .education {
   scroll-margin-top: 100px;
   transition: all 0.2s ease;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   width: 70vw;
   margin: auto;
@@ -97,6 +95,7 @@ transform: scale(1.02);
   display: flex;
   margin: auto;
   padding: 40px;
+  box-sizing: border-box;
   border-radius: 20px;
   background-color: #e0eeeee2;
   width: 80vw;
@@ -112,23 +111,42 @@ transform: scale(1.02);
   transform: scale(1.02);
 }
 .box {
-  width: 35vw;
+  width: 33vw;
   padding: 25px;
+  box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 30px;
   transition: all 0.2s ease;
   background-color:  #bcebebe2;
   
-
+  
 }
+@media( max-width:800px ){
+  .box{
+    width: 90vw;
+    padding: 25px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  background-color: #bcebebe2;
+  }
+  .header{
+         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+  }
 .details{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #e0eeeee2;
 }
 footer {
   padding: 1px;
-  height: 4vh;;
+  height: 3vh;;
   margin-top: 7vh;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.995);
