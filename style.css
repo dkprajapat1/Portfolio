@@ -148,10 +148,17 @@ nav a:hover {
   }
 
   .header {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+  }
+  nav a{
+    font-size: 13px;
+    padding: 5px;
   }
 }
 
