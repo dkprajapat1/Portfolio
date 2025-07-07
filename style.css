@@ -574,7 +574,7 @@ footer {
     }
 
     .allpage{
-        height: 100vh;
+        height: 90vh;
     }
     .same {
         margin: auto;
@@ -584,7 +584,9 @@ footer {
     .same>:nth-child(1) {
         font-size: 30px;
     }
-
+   .same>:nth-child(2) {
+        font-size: 25px;
+    }
     .projectbox {
         margin: auto;
         margin-top: 6vw;
@@ -602,6 +604,7 @@ footer {
     }
 
     .project {
+         font-size: 25px;
         flex: 0 0 40vw;
         height: fit-content;
         z-index: 30;
