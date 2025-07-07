@@ -574,7 +574,7 @@ footer {
     }
 
     .allpage{
-        height: fit-content;
+        height: 80vh;
     }
     .same {
         margin: auto;
