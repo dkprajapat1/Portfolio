@@ -574,7 +574,11 @@ footer {
     }
 
     .allpage{
+<<<<<<< HEAD
         height: 100vh;
+=======
+        height: 90vh;
+>>>>>>> 2328d91e392c4e87f34034cdf58bd1a96fb06673
     }
     .same {
         margin: auto;
@@ -587,7 +591,9 @@ footer {
     .same>:nth-child(2) {
         font-size: 25px;
     }
-
+   .same>:nth-child(2) {
+        font-size: 25px;
+    }
     .projectbox {
         margin: auto;
         margin-top: 6vw;
@@ -605,7 +611,11 @@ footer {
     }
 
     .project {
+<<<<<<< HEAD
         font-size: 25px;
+=======
+         font-size: 25px;
+>>>>>>> 2328d91e392c4e87f34034cdf58bd1a96fb06673
         flex: 0 0 40vw;
         height: fit-content;
         z-index: 30;
