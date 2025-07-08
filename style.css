@@ -261,6 +261,7 @@ body {
     padding: 20px 30px;
     background-color: rgba(136, 140, 136, 0.168);
     border-radius: 20px;
+     font-family: "Roboto", sans-serif;
 
 }
 
@@ -576,31 +577,29 @@ footer {
 
     .allpage{
         height: 100vh;
-        height: 90vh;
+        
     }
     .same {
         margin: auto;
-        width: 80vw;
+        width: 90vw;
+        height: fit-content;
     }
 
     .same>:nth-child(1) {
-        font-size: 40px;
+        font-size: 35px;
     }
     .same>:nth-child(2) {
-        font-size: 25px;
-    }
-   .same>:nth-child(2) {
-        font-size: 25px;
+        font-size: 20px;
     }
     .projectbox {
         margin: auto;
-        margin-top: 6vw;
-        width: 80vw;
+        margin-top: 30vw;
+        width: 90vw;
     }
 
     .projectbox>:nth-child(1) {
         margin-left: 30px;
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 20px;
     }
 
@@ -609,11 +608,11 @@ footer {
     }
 
     .project {
-        font-size: 25px;
-         font-size: 25px;
+        font-size: 20px;
         flex: 0 0 40vw;
         height: fit-content;
         z-index: 30;
+         font-family: "Roboto", sans-serif;
     }
 
     .project:hover {
