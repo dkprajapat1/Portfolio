@@ -306,6 +306,7 @@ body {
     height: calc(68vh - 60px);
     border-radius: 20px;
     padding: 20px;
+      font-family: "Roboto", sans-serif;
 }
 
 .project:hover {
@@ -612,7 +613,6 @@ footer {
         flex: 0 0 60vw;
         height: 23rem;
         z-index: 30;
-         font-family: "Roboto", sans-serif;
     }
 
     .project:hover {
