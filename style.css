@@ -674,4 +674,13 @@ footer {
     .skills>:nth-child(2){
         overflow: auto;
     }
+    .top {
+    width: 80px;
+    height: 80px;
+}
+
+.top div {
+    height: 70px;
+    width: 70px;
+}
 }
