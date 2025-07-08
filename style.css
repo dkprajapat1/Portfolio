@@ -609,8 +609,8 @@ footer {
 
     .project {
         font-size: 20px;
-        flex: 0 0 40vw;
-        height: fit-content;
+        flex: 0 0 60vw;
+        height: 25rem;
         z-index: 30;
          font-family: "Roboto", sans-serif;
     }
@@ -620,15 +620,17 @@ footer {
     }
 
     .video {
-        width: 40vw;
-        margin-top: 30px;
+        margin: 0px;
+        width: 45vw;
+        margin-bottom: 10px;
         border-radius: 20px;
         filter: opacity(80%);
     }
 
     .toppart {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .bottompart {
