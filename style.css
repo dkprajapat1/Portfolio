@@ -610,7 +610,7 @@ footer {
     .project {
         font-size: 20px;
         flex: 0 0 60vw;
-        height: 25rem;
+        height: 23rem;
         z-index: 30;
          font-family: "Roboto", sans-serif;
     }
@@ -621,7 +621,7 @@ footer {
 
     .video {
         margin: 0px;
-        width: 45vw;
+        width: 50vw;
         margin-bottom: 10px;
         border-radius: 20px;
         filter: opacity(80%);
