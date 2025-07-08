@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: rgb(40, 38, 38);
+    background: linear-gradient(to right , rgb(32, 32, 1) , rgb(0, 0, 0));
+    /* background-color: rgb(40, 38, 38); */
     color: white;
 }
 
@@ -183,7 +184,7 @@ body {
     left: 20px;
     padding: 0px 10px;
     height: 98vh;
-    background: linear-gradient(to bottom, white, rgba(216, 237, 212, 0.844), rgba(207, 239, 158, 0.291));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.807), rgba(106, 145, 98, 0.564), rgba(207, 239, 158, 0.267));
     position: fixed;
     top: 0;
     z-index: 10;
@@ -259,10 +260,15 @@ body {
     font-size: min(3vw, 18px);
     margin-bottom: 20px;
     padding: 20px 30px;
-    background-color: rgba(136, 140, 136, 0.168);
+   background-color: rgba(97, 144, 97, 0.094);
+    box-shadow: 2px 2px 2px white;
     border-radius: 20px;
      font-family: "Roboto", sans-serif;
 
+}
+.same>:nth-child(2):hover{
+    background-color: rgba(97, 144, 97, 0.094);
+    box-shadow: 2px 2px 2px white;
 }
 
 .skills strong {
@@ -287,61 +293,67 @@ body {
 }
 
 .projects {
-    background-color: rgba(136, 140, 136, 0.168);
+     background-color: rgba(97, 144, 97, 0.094);
+    box-shadow: 3px 3px 2px white;
     border-radius: 20px;
     padding: 20px;
     display: flex;
     flex-direction: row;
     gap: 50px;
     overflow-x: scroll;
-    height: 68vh;
+    height: fit-content;
     box-sizing: border-box;
 
 }
 
 .project {
-    background-color: rgba(2, 34, 2, 0.182);
+    background-color: rgba(151, 160, 28, 0.084);
     box-sizing: border-box;
     flex: 0 0 40vw;
-    height: calc(68vh - 60px);
+    /* height: calc(68vh - 45px); */
+    height: fit-content;
     border-radius: 20px;
     padding: 20px;
       font-family: "Roboto", sans-serif;
+      transition: all 0.4s;
 }
 
 .project:hover {
     border: 1px solid;
+    scale: 1.03;
+      background-color: rgba(225, 240, 21, 0.125);
 }
-.video_box{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-.video_box>:nth-child(2){
-    color: yellow;
+.viewnow{
+    color: rgb(230, 230, 98);
     text-decoration: none;
     background-color: rgba(18, 18, 18, 0.25);
     border-radius: 20px;
     padding: 5px 15px;
-    margin: 10px;
+   text-align: center;
+   width: fit-content;
 }
-.video_box>:nth-child(2):hover{
-   background-color: rgb(89, 89, 228);
+.viewnow:hover{
+   background-color: rgba(89, 89, 228, 0.612);
    color: black;
 }
 .video {
     width: 15vw;
     margin-left: 10px;
     border-radius: 20px;
+    filter: blur(10);
 }
 
 .toppart {
     display: flex;
+
 }
 
 .bottompart {
     margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 /* education box */
@@ -409,17 +421,20 @@ body {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.043);
 }
 
 @media only screen and (max-width: 1100px) {
+    body{
+        background: linear-gradient(to right , rgba(0, 12, 0, 0.895) , black);
+    }
     .whitebox {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         height: 5vh;
-        background: linear-gradient(to right, rgba(188, 188, 188, 0.893), rgba(212, 212, 212, 0.722), rgba(230, 253, 199, 0.393));
+        background: linear-gradient(to bottom, rgb(195, 195, 195), rgba(198, 255, 151, 0.759), rgba(23, 82, 0, 0.127));
         position: sticky;
         left: 0;
         top: 0;
@@ -427,7 +442,7 @@ footer {
         color: black;
         border-radius: 0px;
         padding: 0px 2vh;
-        
+        display: none;
     }
 
     .whitebox>:nth-child(1) {
@@ -650,11 +665,6 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    .bottompart {
-        display: none;
-    }
-
     .skills>:nth-child(2){
         overflow: auto;
     }
