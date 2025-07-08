@@ -622,7 +622,7 @@ footer {
     }
 
     .same>:nth-child(1) {
-        font-size: 35px;
+        font-size: 40px;
     }
     .same>:nth-child(2) {
         font-size: 2vh;
@@ -665,6 +665,12 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
+.viewnow{
+    width: 100%;
+    font-size: x-large;
+}
+
+
     .skills>:nth-child(2){
         overflow: auto;
     }
