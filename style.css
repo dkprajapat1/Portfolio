@@ -639,7 +639,8 @@ footer {
     .projectpage{
         height: fit-content;
         margin: none;
-    }
+        margin-bottom: 30vh;
+        }
     .projectbox{
         margin: auto;
     }
