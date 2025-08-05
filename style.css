@@ -278,9 +278,10 @@ body {
 
 /* Project box  */
 
-.projectpage{
+.projectpage {
     height: fit-content;
 }
+
 .projectbox {
     scroll-margin-top: 60px;
     margin-left: min(400px, 30vw);
@@ -437,47 +438,61 @@ footer {
         background: linear-gradient(to right, rgba(0, 12, 0, 0.895), black);
     }
 
-    .whitebox {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 5vh;
-        background: linear-gradient(to bottom, rgb(195, 195, 195), rgba(198, 255, 151, 0.759), rgba(23, 82, 0, 0.127));
-        position: sticky;
-        left: 0;
+
+    #hamburger {
+        filter: invert(1);
+        height: 30px;
+        position: absolute;
         top: 0;
+        right: 0;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    #close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .whitebox {
+        height: 100vh;
+        background: linear-gradient(to bottom, rgb(195, 195, 195), rgba(198, 255, 151, 0.732), rgba(23, 82, 0, 0.127));
+        width: 80vw;
+        left: -1000px;
         align-items: center;
         color: black;
-        border-radius: 0px;
+        border-radius: 0px 10px 10px 0px;
         padding: 0px 2vh;
-        display: none;
+        margin-top: 40px;
+        transition: all 1s;
     }
 
-    .whitebox>:nth-child(1) {
-        display: none;
-    }
+
 
     .info>:nth-child(1) {
-        font-size: 3.5vw;
+        font-size: min(25px, 6vw);
         font-weight: 900;
-        margin-bottom: 5px;
+        margin-top: 0vh;
     }
 
     .info>:nth-child(2) {
-        display: none;
+        font-size: min(25px, 6vw);
+        font-weight: 900;
     }
 
-    .info>:nth-child(3) {
-        display: none;
-    }
+
 
     .navbutton {
-        margin: 0vh 0px;
+        margin: 30px;
         border-radius: 0px;
         padding: 0px;
         background-color: transparent;
         box-shadow: none;
-        font-size: 2.5vw;
+        font-size: 3vw;
+        flex-direction: column;
     }
 
     /* first page  */
@@ -636,14 +651,16 @@ footer {
         max-height: 70vh;
     }
 
-    .projectpage{
+    .projectpage {
         height: fit-content;
         margin: none;
         margin-bottom: 40vh;
-        }
-    .projectbox{
+    }
+
+    .projectbox {
         margin: auto;
     }
+
     .projectbox>:nth-child(1) {
         margin-left: 30px;
         font-size: 35px;
@@ -668,9 +685,10 @@ footer {
         margin-bottom: 10px;
         filter: opacity(80%);
     }
+
     .viewnow {
         width: fit-content;
-        font-size:small;
+        font-size: small;
     }
 
 
