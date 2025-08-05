@@ -459,7 +459,7 @@ footer {
 
     .whitebox {
         height: 100vh;
-        background: linear-gradient(to bottom, rgb(195, 195, 195), rgba(198, 255, 151, 0.732), rgba(23, 82, 0, 0.127));
+        background: linear-gradient(to bottom, rgb(195, 195, 195), rgb(198, 255, 151), rgba(23, 82, 0, 0.67));
         width: 80vw;
         left: -1000px;
         align-items: center;
