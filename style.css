@@ -180,7 +180,7 @@ body {
 }
 
 #hamburger{
-    height: 0px;
+    height: 0px; /* for hide svg*/
 }
 #close{
     display: none;
