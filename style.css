@@ -179,6 +179,12 @@ body {
     height: 100vh;
 }
 
+#hamburger{
+    height: 0px;
+}
+#close{
+    display: none;
+}
 .whitebox {
     left: 20px;
     padding: 0px 10px;
@@ -450,6 +456,7 @@ footer {
     }
 
     #close {
+        display: inherit;
         position: absolute;
         top: 0;
         right: 0;
