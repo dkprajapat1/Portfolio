@@ -445,13 +445,7 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    /* body {
-        background: linear-gradient(to right, rgba(0, 12, 0, 0.895), black);
-    } */
-
-
     #hamburger {
-        filter: invert(1);
         height: 30px;
         position: absolute;
         top: 0;
@@ -471,7 +465,7 @@ footer {
 
     .whitebox {
         height: 100vh;
-        /* background: linear-gradient(to bottom, rgb(195, 195, 195), rgb(198, 255, 151), rgba(23, 82, 0, 0.67)); */
+         background: linear-gradient(to bottom, rgba(212, 231, 253, 0.811), rgba(132, 198, 255, 0.751));
         width: 80vw;
         left: -1000px;
         align-items: center;
